@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência Batatinha</title>
+
+  <link rel="stylesheet" href="/src/styles/login.css">
+  <link rel="shortcut icon" href="/src/images/logo.svg" image/x-icon">
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <nav>
+        <a id="logo" href="#">
+          <img src="/src/images/logo.svg" alt="">
+          <h1>Agência batatinha</h1>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-form">
+        <form>
+          <h2>Entre com seu email e senha</h2>
+          <input type="email" name="email" id="email" placeholder="Email" required>
+          <input type="password" name="password" id="password" placeholder="Senha" required minlength="8">
+          <p id="alert-message"></p>
+          <input type="button" value="Entrar">
+        </form>
+
+        <p>Não possui uma conta? <a href="#">Criar</a></p>
+      </section>
+
+      <div id="line-through"></div>
+
+      <section class="section-image">
+        <h2>Bem-vinda à agência Batatinha</h2>
+        <img src="/src/images/login-image.png" alt="">
+      </section>
+    </main>
+  </div>
+</body>
+</html>
