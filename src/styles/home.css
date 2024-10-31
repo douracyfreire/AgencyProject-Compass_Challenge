@@ -68,3 +68,74 @@ ul li a{
   border: none;
   border-radius: 12px;
 }
+
+.banner{
+  position: relative;
+  width: 108rem;
+}
+ 
+.banner h2{
+  width: 46.25rem;
+  height: 9.375rem;
+  font-size: 3.125rem;
+  color: #3c3c3c;
+  position: absolute;
+  top: 13.6875rem;
+  left: 13.75rem;
+}
+
+.our-services{
+  padding: 0 13.625rem;
+  width: 108rem;
+}
+
+.our-services h2{
+  font-size: 2.25rem;
+  margin: 4.9375rem 0 1.375rem;
+}
+
+.content-services{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.area-service{
+  width: 15.375rem;
+  height: 19.625rem;
+  text-align: center;
+}
+
+.area-service .image-service{
+  width: 15.375rem;
+  height: 15.375rem;
+  border-radius: 50%;
+}
+
+#residential{
+  background-image: url('../images/residential-area.png');
+}
+
+#commercial{
+  background-image: url('../images/commercial-area.png');
+}
+
+#hotel{
+  background-image: url('../images/hotel-area.png');
+}
+
+#residential, #commercial, #hotel{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.area-service h3{
+  font-size: 1.5rem;
+  margin: 0.6875rem 0 0.5625rem 0;
+}
+
+.area-service p{
+  font-size: 1rem;
+}
