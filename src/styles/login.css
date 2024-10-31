@@ -112,6 +112,15 @@ main section{
   position: relative;
 }
 
+#image-login{
+  width: 45.875rem;
+  height: 55.8125rem;
+  border-radius: 1.625rem;
+  background-image: url('../images/login-image.png');
+  background-position: center;
+  background-size: cover;
+}
+
 .section-image h2{
   position: absolute;
   color:#fff;
