@@ -1,0 +1,65 @@
+[
+  {
+    "image":"/src/assets/images/images-json/option-01.png",
+    "price":"R$ 2.000.000",
+    "size": 132,
+    "bedrooms": 5,
+    "bathrooms": 4
+  },
+
+  {
+    "image":"/src/assets/images/images-json/option-02.png",
+    "price":"R$ 1.400.000",
+    "size": 223,
+    "bedrooms": 4,
+    "bathrooms": 4
+  },
+
+  {
+    "image":"/src/assets/images/images-json/option-03.png",
+    "price":"R$ 3.500.000",
+    "size": 341,
+    "bedrooms": 7,
+    "bathrooms": 6
+  },
+
+  {
+    "image":"/src/assets/images/images-json/option-04.png",
+    "price":"R$ 2.200.000",
+    "size": 232,
+    "bedrooms": 5,
+    "bathrooms": 5
+  },
+
+  {
+    "image":"/src/assets/images/images-json/option-05.png",
+    "price":"R$ 2.750.000",
+    "size": 112,
+    "bedrooms": 5,
+    "bathrooms": 3
+  },
+
+  {
+    "image":"/src/assets/images/images-json/option-06.png",
+    "price":"R$ 1.200.000",
+    "size": 92,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+
+  {
+    "image":"/src/assets/images/images-json/option-07.png",
+    "price":"R$ 2.460.000",
+    "size": 149,
+    "bedrooms": 5,
+    "bathrooms": 4
+  },
+
+  {
+    "image":"/src/assets/images/images-json/option-08.png",
+    "price":"R$ 3.100.000",
+    "size": 132,
+    "bedrooms": 6,
+    "bathrooms": 5
+  }
+]
