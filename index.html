@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agência Batatinha</title>
+  <title>Agência Batatinha - Login</title>
 
   <link rel="stylesheet" href="/src/styles/login.css">
-  <link rel="shortcut icon" href="src/assets/icons/logo.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="/src/assets/icons/logo.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -23,12 +23,12 @@
 
     <main>
       <section class="section-form">
-        <form>
+        <form id="login-form">
           <h2>Entre com seu email e senha</h2>
-          <input type="email" name="email" id="email" placeholder="Email" required>
-          <input type="password" name="password" id="password" placeholder="Senha" required minlength="8">
+          <input type="email" name="email" id="email" placeholder="Email">
+          <input type="password" name="password" id="password" placeholder="Senha">
           <p id="alert-message"></p>
-          <input type="button" value="Entrar">
+          <input type="submit" value="Entrar">
         </form>
 
         <p>Não possui uma conta? <a href="#">Criar</a></p>
@@ -42,5 +42,7 @@
       </section>
     </main>
   </div>
+
+  <script src="/src/js/login.js"></script>
 </body>
 </html>

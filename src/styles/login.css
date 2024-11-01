@@ -21,7 +21,6 @@ header{
   padding: 0 13.625rem;
 }
 
-
 nav a{
   display: flex;
   align-items: center;
@@ -42,7 +41,6 @@ main{
   flex-wrap: wrap;
   padding: 5.5625rem 4.25rem;
   height: 100%;
-
 }
 
 main section{
@@ -72,14 +70,24 @@ main section{
   color: #848383;
   font-size: 1.5rem;
   padding: 1.0625rem 2.1875rem;
+}
+
+.section-form form input:first-of-type{
   margin-bottom: 2rem;
 }
 
-.section-form form input[type="button"]{
+.section-form form p{
+  min-height: 1.4375rem;
+  color: #e70000;
+  font-size: 0.9375rem;
+  text-align: left;
+  margin: 0.625rem 0 1.1875rem;
+}
+
+.section-form form input[type="submit"]{
   background-color: #fe8100;
   color: #fff;
   border-radius: 55px;
-  margin-top: 3.25rem;
   cursor: pointer;
 }
 
@@ -128,4 +136,8 @@ main section{
   margin-top: 6.25rem;
   margin-left: 2.375rem;
   font-size: 2.5rem;
+}
+
+.input-invalid{
+  outline: 0.0625rem solid #e70000;
 }
