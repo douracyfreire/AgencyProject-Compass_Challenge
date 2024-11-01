@@ -114,15 +114,15 @@ ul li a{
 }
 
 #residential{
-  background-image: url('../images/residential-area.png');
+  background-image: url('../assets/images/residential-area.png');
 }
 
 #commercial{
-  background-image: url('../images/commercial-area.png');
+  background-image: url('../assets/images/commercial-area.png');
 }
 
 #hotel{
-  background-image: url('../images/hotel-area.png');
+  background-image: url('../assets/images/hotel-area.png');
 }
 
 #residential, #commercial, #hotel{

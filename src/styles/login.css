@@ -116,7 +116,7 @@ main section{
   width: 45.875rem;
   height: 55.8125rem;
   border-radius: 1.625rem;
-  background-image: url('../images/login-image.png');
+  background-image: url('../assets/images/login-image.png');
   background-position: center;
   background-size: cover;
 }
