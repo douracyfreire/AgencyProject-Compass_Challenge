@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agência Batatinha - Home</title>
 
-  <link rel="stylesheet" href="../styles/home.css">
-  <link rel="shortcut icon" href="../assets/icons/logo.svg" image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles/home.css">
+  <link rel="shortcut icon" href="/src/assets/icons/logo.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -20,15 +22,15 @@
         </a>
 
         <ul>
-          <li><a href="">Contato</a></li>
+          <li><a href="#contact">Contato</a></li>
           <li id="exit"><a href="/index.html">Sair</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="banner">
-        <img src="../assets/images/home-banner.png" alt="">
+      <section class="banner" id="banner-section">
+        <img src="/src/assets/images/home-banner.png" alt="banner page">
         <h2>Encontre as melhores casas, pontos comerciais e hoteis.</h2>
       </section>
 
@@ -92,16 +94,28 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contact">
       <h2>Contato</h2>
       <address>
-
+        <a href="#">agencia_batatinha@contato</a>
+        <a href="#">(99) 99999-9999</a>
       </address>
-      <button></button>
+
+      <div class="social-media">
+        <a href="#"><img src="/src/assets/icons/facebook.svg" alt="instagram logo"></a>
+        <a href="#"><img src="/src/assets/icons/instagram.svg" alt="instagram logo"></a>
+        <a href="#"><img src="/src/assets/icons/youtube.svg" alt="youtube logo"></a>
+        <a href="#"><img src="/src/assets/icons/twitter.svg" alt="twitter logo"></a>
+      </div>
+
+      <div class="credits">
+        <p>Feito com <span>&lt;3</span> por Fulano de Tal - Todos os Direitos Reservados</p>
+      </div>
+
+      <button><a href="#banner-section"><img src="/src/assets/icons/backtop.svg" alt="back to top"></a></button>
     </footer>
   </div>
 
-  <script src="../js/home.js"></script>
+  <script src="/src/js/home.js"></script>
 </body>
-
 </html>
