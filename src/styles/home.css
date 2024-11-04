@@ -185,3 +185,101 @@ ul li a{
 .tags-rooms li:first-of-type{
   width: 5.8125rem;
 }
+
+.modal::backdrop{
+  background-color: #000;
+  opacity: 50%;
+}
+
+.modal{
+  width: 68rem;
+  height: 55.1875rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 1rem;
+  top: 3%;
+  margin: 0 auto;
+}
+
+.modal .close{
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 2.125rem;
+  height: 2.125rem;
+  cursor: pointer;
+}
+
+.modal .image-modal{
+  width: 61.3125rem;
+  height: 39.5625rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-image: url("/src/assets/images/images-json/option-04.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 3.4375rem 3.25rem 0 3.4375rem;
+}
+
+.modal h3{
+  width: 61.3125rem;
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1.3125rem 3.25rem 1.125rem 3.4375rem;
+  color: #1e1e1e;
+}
+
+.buy-area-modal{
+  display: flex;
+  justify-content: space-between;
+  width: 61.3125rem;
+  margin: 0 3.25rem 0 3.4375rem;
+}
+
+.buy-area-modal .info-modal{
+  display: flex;
+  gap: 2.3125rem;
+  align-items: center;
+}
+
+.info-modal ul{
+  display: flex;
+  flex-direction: row;
+  gap: 2.375rem;
+  list-style: none;
+}
+
+.info-modal ul li{
+  width: 14.5625rem;
+  height: 4.0625rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  align-content: center;
+  background-color: #e9ecf2;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.info-modal p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #848383;
+}
+
+.buy-area-modal button{
+  width: 14.375rem;
+  height: 4.25rem;
+  border-radius: 0.75rem;
+  border: none;
+  background-color: #fe8100;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  font-weight: 600;
+}
