@@ -49,6 +49,7 @@ nav{
 nav ul{
   list-style: none;
   display: flex;
+  gap: 0.75rem;
 }
 
 ul li a{
@@ -62,12 +63,23 @@ ul li a{
   font-size: 1.25rem;
   font-weight: 500;
   color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  transition: .4s ease-in-out;
+}
+
+ul li a:first-of-type:hover{
+  border-color: #fff;
 }
 
 #exit{
   background-color: #fe8100;
-  border: none;
-  border-radius: 12px;
+  border: 0.0625rem solid #fe8100;
+}
+
+#exit:hover{
+  background-color: transparent;
+  color: #fe8100;
 }
 
 .banner{
@@ -109,6 +121,12 @@ ul li a{
   width: 15.375rem;
   height: 19.625rem;
   text-align: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.area-service:hover{
+  transform: scale(.9);
 }
 
 .area-service .image-service{
@@ -354,12 +372,14 @@ footer .credits{
   color:#e9ecf2;
 }
 
-footer button{
+footer .to-top{
   position: absolute;
   background-color: #e9ecf2;
   border: none;
   width: 3.75rem;
   height: 3.75rem;
+  text-align: center;
+  align-content: center;
   border-radius: 50%;
   bottom: 4.375rem;
   right: 12.375rem;
@@ -367,6 +387,6 @@ footer button{
   transition: .3s;
 }
 
-footer button:hover{
+footer .to-top:hover{
   transform: scale(.9);
 }

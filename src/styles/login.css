@@ -95,6 +95,11 @@ main section{
   color: #fff;
   border-radius: 55px;
   cursor: pointer;
+  transition: .4s ease-in;
+}
+
+form input[type="submit"]:hover{
+  background-color: #fe5d00;
 }
 
 .section-form form::after{
