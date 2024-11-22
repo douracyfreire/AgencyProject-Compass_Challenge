@@ -56,7 +56,7 @@ The project simulates a simple authentication system with login functionalities.
    git clone https://github.com/douracyfreire/AgencyProject-Compass_Challenge.git
 
    ```
-2. Open the index.html file in your preferred browser.
+2. Open the index.html file in your preferred browser via Live Server.
 3. Use the following information to access:
    - **E-mail**: test@mail.com
    - **Senha**: test1234
